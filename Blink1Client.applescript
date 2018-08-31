@@ -82,7 +82,7 @@ on resourcePath()
 	tell application "Finder"
 		set parentPath to POSIX path of (parent of (path to me) as string)
 		set fileName to name of (path to me)
-		
+
 		return parentPath & fileName & "/Contents/Resources"
 	end tell
 end resourcePath
