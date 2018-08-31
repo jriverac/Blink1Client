@@ -3,7 +3,6 @@ use scripting additions
 
 global gCommand
 
-
 on init()
 	set gCommand to (quoted form of resourcePath()) & "/blink1-tool"
 end init
